@@ -16,5 +16,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func calculatePressed(_ sender: Any) {
+        performSegue(withIdentifier: "goToResult", sender: self)
+    }
 }
 
